@@ -80,7 +80,7 @@ test_multi ()
   assert_equality (
     "10 * -8 should equal -80",
     "float",
-    mult(10., -8.),
+    mult(10., 8.),
     -80.
   );
   return 0;

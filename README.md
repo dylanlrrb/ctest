@@ -13,3 +13,7 @@ Add an 'x' to the begining of any assetion to skip it in the test suite (e.g ass
 `watch` will have to be installed for the continuous tesing/ compilation recipes to work properly (e.g. `make test-watch`): https://github.com/dylanlrrb/watch
 
 PR's are welcome!
+
+Terminal output looks like this:
+
+![output](./output.png)
