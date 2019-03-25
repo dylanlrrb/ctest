@@ -1,0 +1,1 @@
+char *arith_test_suite ();

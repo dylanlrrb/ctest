@@ -1,0 +1,1 @@
+char *mock_test_suite ();
