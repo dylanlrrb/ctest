@@ -34,6 +34,7 @@ while (0)
 #define print_actual(actual, type) do { \
   if (type == "int") printf(ANSI_COLOR_RED "           Actual value: %d\n" ANSI_COLOR_RESET, actual); \
   if (type == "char") printf(ANSI_COLOR_RED "          Actual value: %c\n" ANSI_COLOR_RESET, actual); \
+  if (type == "str") printf(ANSI_COLOR_RED "          Actual value: %s\n" ANSI_COLOR_RESET, actual); \
   if (type == "double" || type == "float") printf(ANSI_COLOR_RED "          Actual value: %lf\n" ANSI_COLOR_RESET, actual); \
 } while (0)
 
